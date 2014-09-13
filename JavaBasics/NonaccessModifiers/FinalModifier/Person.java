@@ -14,6 +14,12 @@ class Person
   {
     MAX_AGE = 99;
     
+    String name;
+    String getName()
+    {
+      return name;
+    }
+    
     name.append(" Maria");
     
   }
